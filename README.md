@@ -1,5 +1,6 @@
 # HadoopHiveHue
-Hadoop , Hive, Hue setup pseudo distributed  environment  using docker compose
+Hadoop, Hive, Hue setup pseudo-distributed environment using Docker Compose.
+
 # Hive: Employee and Department Data Analysis
 
 ##  Project Overview
@@ -15,7 +16,7 @@ to extract insights such as employee distribution, salary analysis, and departme
 
 ---
 
-##  Steps Followed
+## 🔹 Steps Followed
 1. **Set up Hive environment using Docker.**
 2. **Created Hive tables:**
    - `employees` (partitioned by `department`)
@@ -37,12 +38,11 @@ to extract insights such as employee distribution, salary analysis, and departme
 | 7️ | Exclude employees with NULL values | `query7_output.txt` |
 | 8️ | Join employees with department locations | `query8_output.txt` |
 | 9️ | Rank employees within each department based on salary | `query9_output.txt` |
-|  | Find the top 3 highest-paid employees in each department | `query10_output.txt` |
+| 10 | Find the top 3 highest-paid employees in each department | `query10_output.txt` |
 
 ---
 
-## How to Run This Project
-1. Clone the repository:
+##  How to Run This Project
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/Cloud-Computing-Spring-2025/hive-employee-data-analysis-bhanukocherla.git
-
